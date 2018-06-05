@@ -1,0 +1,1 @@
+SELECT staff.firstname, staff.lastname, stats.ppg FROM staff, STATS WHERE (staff.s_id = stats.st_id) AND (stats.ppg >= 10) ORDER BY stats.PPG DESC

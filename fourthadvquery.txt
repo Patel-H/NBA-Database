@@ -1,0 +1,1 @@
+SELECT FIRSTNAME, LASTNAME, "FT%" FROM staff, STATS WHERE staff.s_id = stats.st_id AND "FT%" >= 0.7 ORDER BY staff.s_id

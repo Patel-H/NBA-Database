@@ -1,0 +1,1 @@
+SELECT staff.firstname, staff.lastname, stats."FG%" FROM staff, stats WHERE staff.s_id = stats.st_id AND (stats."FG%" >= 0.5) ORDER BY staff.s_id DESC

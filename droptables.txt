@@ -1,0 +1,9 @@
+drop table staff
+drop table players
+drop table stats
+drop table general_managers
+drop table teams
+drop table locations
+drop table teams_maps_locations
+drop table games
+drop table coaches

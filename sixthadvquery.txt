@@ -1,0 +1,1 @@
+SELECT 'Average_PPG_for_team_is' , AVG(PPG) FROM STATS

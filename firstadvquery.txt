@@ -1,0 +1,1 @@
+SELECT staff.firstname, staff.lastname, players.DOB, stats.PPG, stats.APG, stats.RPG, stats.TOV FROM staff, players, STATS WHERE (staff.s_id = players.P_ID) AND (staff.s_id = stats.st_id) ORDER BY stats.ppg DESC
